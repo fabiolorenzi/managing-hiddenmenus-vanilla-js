@@ -1,0 +1,37 @@
+#leftdiv {
+    background-color: red;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: -500px;
+    width: 50px;
+}
+
+#rightdiv {
+    background-color: blue;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: -500px;
+    width: 50px;
+}
+
+.leftOpen {
+    left: 0px !important;
+    transition-duration: 0.5s;
+}
+
+.leftClosed {
+    left: -500px !important;
+    transition-duration: 0.5s;
+}
+
+.rightOpen {
+    right: 0px !important;
+    transition-duration: 0.5s;
+}
+
+.rightClosed {
+    right: -500px !important;
+    transition-duration: 0.5s;
+}
